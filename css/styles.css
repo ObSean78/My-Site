@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -16,11 +17,39 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   color: #009DAE;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p {
+    line-height: 2;
+}
+
+a {
+  color: #C2FFF9;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
 }
 
 .top-container {
@@ -31,17 +60,23 @@ h3 {
 
 .middle-container {
   background-color: #71DFE7;
+  padding-bottom: 75px;
 }
 
 .bottom-container {
   background-color: #009DAE;
+  padding: 50px 0 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
 }
 
 .skill-row {
   width: 50%;
   margin: 50px auto 50px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .icon-stack {
@@ -58,26 +93,41 @@ h3 {
   margin-left: 30px;
 }
 
-.skill-description-stack {
-  clear: left;
-}
-
-.skill-description-network {
-  clear: right;
-}
-
 .pro {
   text-decoration: underline;
 }
 
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #009DAE;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00c4d6;
+  text-decoration: none;
 }
