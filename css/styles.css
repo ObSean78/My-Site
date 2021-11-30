@@ -60,8 +60,7 @@ a:hover {
 
 .middle-container {
   background-color: #71DFE7;
-  padding-top: 100px;
-  padding-bottom: 75px;
+  padding: 100px 0 75px;
 }
 
 .bottom-container {
